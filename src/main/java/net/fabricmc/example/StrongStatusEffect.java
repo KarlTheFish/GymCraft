@@ -13,7 +13,7 @@ public class StrongStatusEffect extends StatusEffect {
     //check if and when effect can be applied
     @Override
     public boolean canApplyUpdateEffect(int duration, int amplifier){
-
+        return true;
     }
 
     //what the effect does
