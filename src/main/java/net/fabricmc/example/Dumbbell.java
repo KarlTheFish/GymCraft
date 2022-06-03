@@ -24,7 +24,6 @@ public class Dumbbell extends Item {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand){
         playerEntity.playSound(SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, 1.0F, 0.5F);
-        playerEntity.getItemsHand();
         return TypedActionResult.success(playerEntity.getStackInHand(hand));
 
     }
